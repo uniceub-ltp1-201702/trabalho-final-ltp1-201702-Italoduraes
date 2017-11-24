@@ -1,0 +1,8 @@
+Rosa Norte;Reggae;2013;Armandinho
+Sol Loiro;Reggae;2011;Armandinho
+AC/AD;Rock;1989;Italo
+Buteco;Forro;2016;Maria
+David Guetta;Eletronica;2010;David
+Esquadrao;Eletronica;2017;David
+Artic Monkeys;Rock;2007;Italo
+Cornerstone;Rock;2004;Italo
