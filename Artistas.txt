@@ -3,3 +3,5 @@ Italo;21
 Maria;34
 David;50
 Hugo;34
+Yoyo;45
+Bruno;21

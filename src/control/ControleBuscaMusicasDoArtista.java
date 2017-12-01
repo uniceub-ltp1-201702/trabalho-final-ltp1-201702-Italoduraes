@@ -35,8 +35,10 @@ public class ControleBuscaMusicasDoArtista {
 				String a = "<<< " + artista + ">>>\n";
 				for (int i = 0; i < musicas.size(); i++) {
 					if (musicas.get(i).getArtista().equalsIgnoreCase(artista)) {
-						a += "-------------------\n" + musicas.get(i).getNome() + "\n" + musicas.get(i).getGenero() + "\n"
-								+ musicas.get(i).getAnoLancamento() + "\n";
+						a += "-------------------\n" + 
+					"Nome da musica: " + musicas.get(i).getNome() + "\n" + 
+					"Genero: " + musicas.get(i).getGenero() + "\n" +
+					"Ano de lançamento: "	+ musicas.get(i).getAnoLancamento() + "\n";
 					}
 				}
 				

@@ -8,3 +8,5 @@ Green Day;Rock;2001;Italo
 Idie;Eletronica;2008;David
 Folha Bananeira;Reggae;2010;Armandinho
 Scorpions;Rock;1999;Hugo
+Vai e Vem;Samba;2018;Yoyo
+Xuxa;Kids;2017;Bruno
