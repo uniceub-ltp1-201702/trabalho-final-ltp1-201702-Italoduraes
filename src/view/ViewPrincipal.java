@@ -13,13 +13,15 @@ public class ViewPrincipal {
 			this.opcao =  JOptionPane.showInputDialog(
 					"Escolha uma opção\n" +
 					"1 - Cadastrar artista\n" +
-					"2 - Cadastrar musica\n"	+	
-					"3 - Listar os artista\n" +
-					"4 - Listar as musicas\n" +
-					"5 - Buscar artista por nome\n" +
-					"6 - Buscar musicas por nome\n" +
-					"7 - Bucar musicas por artistas\n" +
-					"8 - Sair\n");
+					"2 - Cadastrar musica\n"	+
+					"3 - Excluir musica\n" +
+					"4 - Excluir artista\n" +
+					"5 - Listar os artista\n" +
+					"6 - Listar as musicas\n" +
+					"7 - Buscar artista por nome\n" +
+					"8 - Buscar musicas por nome\n" +
+					"9 - Bucar musicas por artistas\n" +
+					"10 - Sair\n");
 			
 			return this.opcao;
 		}

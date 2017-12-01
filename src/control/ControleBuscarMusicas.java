@@ -1,11 +1,8 @@
 package control;
 
-import model.Artistas;
 import model.BD;
 import model.Musicas;
-import view.ViewBuscarArtistas;
 import view.ViewBuscarMusicas;
-import view.ViewExibirBuscaArtistas;
 import view.ViewExibirBuscaMusicas;
 
 public class ControleBuscarMusicas {

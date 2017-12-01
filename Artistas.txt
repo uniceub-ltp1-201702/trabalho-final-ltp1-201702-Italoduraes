@@ -3,7 +3,3 @@ Italo;21
 Maria;34
 David;50
 Hugo;34
-Tereza;65
-Iury;43
-jojo;32
-Kaka;33

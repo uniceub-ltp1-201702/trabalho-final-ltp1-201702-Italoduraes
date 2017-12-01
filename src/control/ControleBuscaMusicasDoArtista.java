@@ -1,11 +1,9 @@
 package control;
 
 import java.util.ArrayList;
-import model.Artistas;
 import model.BD;
 import model.Musicas;
 import view.ViewBuscarArtistas;
-import view.ViewExibirBuscaArtistas;
 import view.ViewExibirMusicaString;
 
 public class ControleBuscaMusicasDoArtista {

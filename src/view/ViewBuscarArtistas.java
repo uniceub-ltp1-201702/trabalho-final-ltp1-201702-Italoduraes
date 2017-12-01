@@ -1,9 +1,7 @@
 package view;
 
 import java.util.ArrayList;
-
 import javax.swing.JOptionPane;
-
 import model.Artistas;
 
 public class ViewBuscarArtistas {

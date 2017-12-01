@@ -3,7 +3,6 @@ package control;
 
 import model.Artistas;
 import model.BD;
-import model.Musicas;
 import view.ViewBuscarArtistas;
 import view.ViewExibirBuscaArtistas;
 

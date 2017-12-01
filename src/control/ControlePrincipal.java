@@ -1,5 +1,7 @@
 package control;
 
+import java.io.IOException;
+
 import javax.swing.JOptionPane;
 
 import model.BD;
@@ -19,10 +21,13 @@ public class ControlePrincipal {
     private ControleBuscarArtistas cba;
     private ControleBuscarMusicas cbm;
     private ControleBuscaMusicasDoArtista cbma;
+    private ControleExcluirMusicas cexm;
+    private ControleExcluirArtistas cexa;
 	
+    
 	// Metodo contrutor 
 	
-		public ControlePrincipal(){
+		public ControlePrincipal() throws IOException{
 			// instanciar o objeto BD
 			this.bd = new BD();
 			
@@ -45,6 +50,8 @@ public class ControlePrincipal {
 			this.cba =new ControleBuscarArtistas(bd);
 			this.cbm = new ControleBuscarMusicas(bd);
 			this.cbma = new ControleBuscaMusicasDoArtista(bd);
+			this.cexm = new ControleExcluirMusicas(bd);
+			this.cexa = new ControleExcluirArtistas(bd);
 			
 			//Exibir a janela de opçoes pela primeira vez 
 			
@@ -55,7 +62,7 @@ public class ControlePrincipal {
 
 		// Metodo para tratar a opçao do artista
 		
-		public void tratarOpcao ( String opcao){
+		public void tratarOpcao ( String opcao) throws IOException{
 			while (true) {
 				switch (opcao) {
 				case "1": this.cca.cadastrarArtistas();
@@ -63,23 +70,28 @@ public class ControlePrincipal {
 					
 				case "2": this.ccm.cadastrarMusica();
 				   break;
+				   
+				case "3": this.cexm.ExcluirMusicas();
+				   break;
+				   
+				case "4": this.cexa.ExcluirArtistas();  
 
-				case "3": this.cea.exibirArtistas();	
+				case "5": this.cea.exibirArtistas();	
 					break;
 					
-				case "4": this.cem.exibirMusicas();
+				case "6": this.cem.exibirMusicas();
 					break;
 					
-				case "5": this.cba.buscarArtistas();
+				case "7": this.cba.buscarArtistas();
 					break;
 					
-				case "6": this.cbm.buscarMusica();	
+				case "8": this.cbm.buscarMusica();	
 					break;
 					
-				case "7": this.cbma.buscarArtistas();
+				case "9": this.cbma.buscarArtistas();
 				    break;
 					
-				case "8": JOptionPane.showMessageDialog(null, "Até breve!" );	
+				case "10": JOptionPane.showMessageDialog(null, "Até em breve!" );	
 					return;
 					
 				default: JOptionPane.showMessageDialog(null, "Favor digitar um valor válido! ");

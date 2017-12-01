@@ -1,6 +1,6 @@
 package control;
 
-import java.util.ArrayList;
+
 import model.Artistas;
 import model.BD;
 import view.ViewArtistaExiste;
